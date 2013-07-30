@@ -1,0 +1,1 @@
+/home/luis/Documentos/simulator_ddr/simulador_DDR_NO_SHADERS/simulador_DDR_no_shaders/build/CMakeFiles/main.dir

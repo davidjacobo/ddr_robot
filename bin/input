@@ -1,0 +1,19 @@
+1.0
+0.5
+1
+1
+1.0
+1.078 1.9741 0
+1.3 2.2 0
+1.5 0 0
+
+//formato de input
+Vp max      Velocidad maxima del perseguidor
+Ve max      Velocidad maxima del evasor
+l           Distancia de captura    
+b           Radio del DDR
+R           distancia de la camara C2 hasta el evasor
+
+Xe	    Coordenada X del evasor en el espacio reducido
+Ye	    Coordenada Y del evasor en el espacio reducido
+phie 	    Angulo de orientacion del conjunto de puntos

@@ -1,0 +1,318 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_DDR_no_shaders/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1472279786/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1472279786.dir/build.make CMakeFiles/cmTryCompileExec1472279786.dir/build
+make[1]: Entering directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_DDR_no_shaders/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_DDR_no_shaders/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1472279786.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1472279786.dir/CheckSymbolExists.c.o   -c /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_DDR_no_shaders/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1472279786
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1472279786.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec1472279786.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1472279786 -rdynamic 
+CMakeFiles/cmTryCompileExec1472279786.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1472279786] Error 1
+make[1]: Leaving directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_DDR_no_shaders/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1472279786/fast] Error 2
+
+File /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_DDR_no_shaders/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_DDR_no_shaders/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1929063274/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1929063274.dir/build.make CMakeFiles/cmTryCompileExec1929063274.dir/build
+make[1]: Entering directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_DDR_no_shaders/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_DDR_no_shaders/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1929063274.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1929063274.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1929063274
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1929063274.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1929063274.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1929063274 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec1929063274.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1929063274] Error 1
+make[1]: Leaving directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_DDR_no_shaders/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1929063274/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_opengl/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1999889559/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1999889559.dir/build.make CMakeFiles/cmTryCompileExec1999889559.dir/build
+make[1]: Entering directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_opengl/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_opengl/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1999889559.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1999889559.dir/CheckSymbolExists.c.o   -c /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_opengl/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1999889559
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1999889559.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec1999889559.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1999889559 -rdynamic 
+CMakeFiles/cmTryCompileExec1999889559.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_opengl/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1999889559] Error 1
+make: *** [cmTryCompileExec1999889559/fast] Error 2
+
+File /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_opengl/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_opengl/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec34898451/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec34898451.dir/build.make CMakeFiles/cmTryCompileExec34898451.dir/build
+make[1]: Entering directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_opengl/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_opengl/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec34898451.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec34898451.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec34898451
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec34898451.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec34898451.dir/CheckFunctionExists.c.o  -o cmTryCompileExec34898451 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec34898451.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec34898451] Error 1
+make[1]: Leaving directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_opengl/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec34898451/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2644245061/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2644245061.dir/build.make CMakeFiles/cmTryCompileExec2644245061.dir/build
+make[1]: Entering directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.2/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2644245061.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2644245061.dir/CheckSymbolExists.c.o   -c /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.2/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2644245061
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2644245061.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec2644245061.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2644245061 -rdynamic 
+CMakeFiles/cmTryCompileExec2644245061.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2644245061] Error 1
+make[1]: Leaving directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.2/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2644245061/fast] Error 2
+
+File /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3832448640/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3832448640.dir/build.make CMakeFiles/cmTryCompileExec3832448640.dir/build
+make[1]: Entering directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.2/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3832448640.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3832448640.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3832448640
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3832448640.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3832448640.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3832448640 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec3832448640.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3832448640] Error 1
+make[1]: Leaving directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.2/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3832448640/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec142072986/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec142072986.dir/build.make CMakeFiles/cmTryCompileExec142072986.dir/build
+make[1]: Entering directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec142072986.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec142072986.dir/CheckSymbolExists.c.o   -c /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec142072986
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec142072986.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec142072986.dir/CheckSymbolExists.c.o  -o cmTryCompileExec142072986 -rdynamic 
+CMakeFiles/cmTryCompileExec142072986.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec142072986] Error 1
+make[1]: Leaving directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.3/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec142072986/fast] Error 2
+
+File /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3861066552/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3861066552.dir/build.make CMakeFiles/cmTryCompileExec3861066552.dir/build
+make[1]: Entering directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3861066552.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3861066552.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3861066552
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3861066552.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3861066552.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3861066552 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec3861066552.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3861066552] Error 1
+make[1]: Leaving directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.3/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3861066552/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1765245316/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1765245316.dir/build.make CMakeFiles/cmTryCompileExec1765245316.dir/build
+make[1]: Entering directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1765245316.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1765245316.dir/CheckSymbolExists.c.o   -c /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1765245316
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1765245316.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec1765245316.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1765245316 -rdynamic 
+CMakeFiles/cmTryCompileExec1765245316.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1765245316] Error 1
+make[1]: Leaving directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1765245316/fast] Error 2
+
+File /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1598551671/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1598551671.dir/build.make CMakeFiles/cmTryCompileExec1598551671.dir/build
+make[1]: Entering directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1598551671.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1598551671.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1598551671
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1598551671.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1598551671.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1598551671 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec1598551671.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1598551671] Error 1
+make: *** [cmTryCompileExec1598551671/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3739735931/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3739735931.dir/build.make CMakeFiles/cmTryCompileExec3739735931.dir/build
+make[1]: Entering directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3739735931.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3739735931.dir/CheckSymbolExists.c.o   -c /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3739735931
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3739735931.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec3739735931.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3739735931 -rdynamic 
+CMakeFiles/cmTryCompileExec3739735931.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3739735931] Error 1
+make[1]: Leaving directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3739735931/fast] Error 2
+
+File /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1740829408/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1740829408.dir/build.make CMakeFiles/cmTryCompileExec1740829408.dir/build
+make[1]: Entering directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1740829408.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1740829408.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1740829408
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1740829408.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1740829408.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1740829408 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec1740829408.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1740829408] Error 1
+make[1]: Leaving directory `/home/david/Dropbox/Tesis/3DLuis/simulador_DDR_NO_SHADERS/simulador_full_openglv.4/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1740829408/fast] Error 2
+
+

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/simulador_DDR_no_shaders.dir/main.cpp.o  -o simulador_DDR_no_shaders -rdynamic 
